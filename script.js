@@ -22,6 +22,6 @@ document.getElementById('orderForm').addEventListener('submit', function(e) {
     // In a real app, you'd send this to a database. 
     // For now, we update the UI to show it works.
     document.getElementById('statusUpdate').innerHTML = 
-        `✅ Order Confirmed! 1x ${meal} for ${time}. <br> 
+        Order Confirmed! 1x ${meal} for ${time}. <br> 
         <em>Data sent to canteen kitchen.</em>`;
 });
